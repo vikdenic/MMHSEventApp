@@ -12,6 +12,18 @@
 		9322D5D919703DFC00DC019F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9322D5D819703DFC00DC019F /* Images.xcassets */; };
 		9322D5E519703DFD00DC019F /* MMHSEventAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9322D5E419703DFD00DC019F /* MMHSEventAppTests.swift */; };
 		9322D5EF19703E4B00DC019F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9322D5EE19703E4B00DC019F /* HomeViewController.swift */; };
+		93802C4F19705DFF003FD6C6 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93802C4E19705DFF003FD6C6 /* AudioToolbox.framework */; };
+		93802C5119705E08003FD6C6 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93802C5019705E08003FD6C6 /* CFNetwork.framework */; };
+		93802C5319705E10003FD6C6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93802C5219705E10003FD6C6 /* CoreGraphics.framework */; };
+		93802C5519705E1A003FD6C6 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93802C5419705E1A003FD6C6 /* CoreLocation.framework */; };
+		93802C5719705E23003FD6C6 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 93802C5619705E23003FD6C6 /* libz.dylib */; };
+		93802C5919705E2E003FD6C6 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93802C5819705E2E003FD6C6 /* MobileCoreServices.framework */; };
+		93802C5B19705E37003FD6C6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93802C5A19705E37003FD6C6 /* QuartzCore.framework */; };
+		93802C5D19705E3F003FD6C6 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93802C5C19705E3F003FD6C6 /* Security.framework */; };
+		93802C5F19705E46003FD6C6 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93802C5E19705E46003FD6C6 /* StoreKit.framework */; };
+		93802C6119705E4D003FD6C6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93802C6019705E4D003FD6C6 /* SystemConfiguration.framework */; };
+		93802C6419705EB9003FD6C6 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93802C6319705EB9003FD6C6 /* Parse.framework */; };
+		93802C6619705F3E003FD6C6 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93802C6519705F3E003FD6C6 /* MapKit.framework */; };
 		93A3AD451970552700647E16 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A3AD441970552700647E16 /* HomeTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +47,19 @@
 		9322D5E319703DFD00DC019F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9322D5E419703DFD00DC019F /* MMHSEventAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMHSEventAppTests.swift; sourceTree = "<group>"; };
 		9322D5EE19703E4B00DC019F /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		93802C4E19705DFF003FD6C6 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		93802C5019705E08003FD6C6 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		93802C5219705E10003FD6C6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		93802C5419705E1A003FD6C6 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		93802C5619705E23003FD6C6 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		93802C5819705E2E003FD6C6 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		93802C5A19705E37003FD6C6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		93802C5C19705E3F003FD6C6 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		93802C5E19705E46003FD6C6 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		93802C6019705E4D003FD6C6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		93802C6319705EB9003FD6C6 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = MMHSEventApp/Parse.framework; sourceTree = "<group>"; };
+		93802C6519705F3E003FD6C6 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		93802C6719705FF0003FD6C6 /* MMHSEventApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MMHSEventApp-Bridging-Header.h"; sourceTree = "<group>"; };
 		93A3AD441970552700647E16 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -43,6 +68,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93802C6619705F3E003FD6C6 /* MapKit.framework in Frameworks */,
+				93802C6119705E4D003FD6C6 /* SystemConfiguration.framework in Frameworks */,
+				93802C5F19705E46003FD6C6 /* StoreKit.framework in Frameworks */,
+				93802C5D19705E3F003FD6C6 /* Security.framework in Frameworks */,
+				93802C5B19705E37003FD6C6 /* QuartzCore.framework in Frameworks */,
+				93802C5919705E2E003FD6C6 /* MobileCoreServices.framework in Frameworks */,
+				93802C5719705E23003FD6C6 /* libz.dylib in Frameworks */,
+				93802C6419705EB9003FD6C6 /* Parse.framework in Frameworks */,
+				93802C5519705E1A003FD6C6 /* CoreLocation.framework in Frameworks */,
+				93802C5319705E10003FD6C6 /* CoreGraphics.framework in Frameworks */,
+				93802C5119705E08003FD6C6 /* CFNetwork.framework in Frameworks */,
+				93802C4F19705DFF003FD6C6 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +120,7 @@
 				93A3AD441970552700647E16 /* HomeTableViewCell.swift */,
 				9322D5D819703DFC00DC019F /* Images.xcassets */,
 				9322D5CF19703DFC00DC019F /* Supporting Files */,
+				93802C6719705FF0003FD6C6 /* MMHSEventApp-Bridging-Header.h */,
 			);
 			path = MMHSEventApp;
 			sourceTree = "<group>";
@@ -90,6 +128,8 @@
 		9322D5CF19703DFC00DC019F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				93802C6519705F3E003FD6C6 /* MapKit.framework */,
+				93802C6219705E71003FD6C6 /* ParseFrameworks */,
 				9322D5D019703DFC00DC019F /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -110,6 +150,25 @@
 				9322D5E319703DFD00DC019F /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		93802C6219705E71003FD6C6 /* ParseFrameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93802C5619705E23003FD6C6 /* libz.dylib */,
+				93802C6319705EB9003FD6C6 /* Parse.framework */,
+				93802C6019705E4D003FD6C6 /* SystemConfiguration.framework */,
+				93802C5E19705E46003FD6C6 /* StoreKit.framework */,
+				93802C5C19705E3F003FD6C6 /* Security.framework */,
+				93802C5A19705E37003FD6C6 /* QuartzCore.framework */,
+				93802C5819705E2E003FD6C6 /* MobileCoreServices.framework */,
+				93802C5419705E1A003FD6C6 /* CoreLocation.framework */,
+				93802C5219705E10003FD6C6 /* CoreGraphics.framework */,
+				93802C5019705E08003FD6C6 /* CFNetwork.framework */,
+				93802C4E19705DFF003FD6C6 /* AudioToolbox.framework */,
+			);
+			name = ParseFrameworks;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -329,9 +388,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MMHSEventApp",
+				);
 				INFOPLIST_FILE = MMHSEventApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MMHSEventApp/MMHSEventApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -340,9 +406,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MMHSEventApp",
+				);
 				INFOPLIST_FILE = MMHSEventApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MMHSEventApp/MMHSEventApp-Bridging-Header.h";
 			};
 			name = Release;
 		};
