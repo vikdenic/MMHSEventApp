@@ -13,6 +13,7 @@
 		9322D5E519703DFD00DC019F /* MMHSEventAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9322D5E419703DFD00DC019F /* MMHSEventAppTests.swift */; };
 		9322D5EF19703E4B00DC019F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9322D5EE19703E4B00DC019F /* HomeViewController.swift */; };
 		93A3AD451970552700647E16 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A3AD441970552700647E16 /* HomeTableViewCell.swift */; };
+		9BB110D219705C40009CB789 /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB110D119705C40009CB789 /* ExploreViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		9322D5E419703DFD00DC019F /* MMHSEventAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMHSEventAppTests.swift; sourceTree = "<group>"; };
 		9322D5EE19703E4B00DC019F /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		93A3AD441970552700647E16 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		9BB110D119705C40009CB789 /* ExploreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExploreViewController.swift; path = ../ExploreViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				9322D5D519703DFC00DC019F /* Main.storyboard */,
 				9322D5EE19703E4B00DC019F /* HomeViewController.swift */,
 				93A3AD441970552700647E16 /* HomeTableViewCell.swift */,
+				9BB110D119705C40009CB789 /* ExploreViewController.swift */,
 				9322D5D819703DFC00DC019F /* Images.xcassets */,
 				9322D5CF19703DFC00DC019F /* Supporting Files */,
 			);
@@ -211,6 +214,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BB110D219705C40009CB789 /* ExploreViewController.swift in Sources */,
 				93A3AD451970552700647E16 /* HomeTableViewCell.swift in Sources */,
 				9322D5D219703DFC00DC019F /* AppDelegate.swift in Sources */,
 				9322D5EF19703E4B00DC019F /* HomeViewController.swift in Sources */,
