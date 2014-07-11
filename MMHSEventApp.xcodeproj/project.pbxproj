@@ -26,6 +26,8 @@
 		93802C6619705F3E003FD6C6 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93802C6519705F3E003FD6C6 /* MapKit.framework */; };
 		93A3AD451970552700647E16 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A3AD441970552700647E16 /* HomeTableViewCell.swift */; };
 		9BB110D219705C40009CB789 /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB110D119705C40009CB789 /* ExploreViewController.swift */; };
+		9BB110D4197063D4009CB789 /* ExploreAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB110D3197063D4009CB789 /* ExploreAnnotation.swift */; };
+		9BB110D719706491009CB789 /* ExploreEventAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB110D619706491009CB789 /* ExploreEventAnnotationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,8 @@
 		93802C6719705FF0003FD6C6 /* MMHSEventApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MMHSEventApp-Bridging-Header.h"; sourceTree = "<group>"; };
 		93A3AD441970552700647E16 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
 		9BB110D119705C40009CB789 /* ExploreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExploreViewController.swift; path = ../ExploreViewController.swift; sourceTree = "<group>"; };
+		9BB110D3197063D4009CB789 /* ExploreAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExploreAnnotation.swift; path = ../ExploreAnnotation.swift; sourceTree = "<group>"; };
+		9BB110D619706491009CB789 /* ExploreEventAnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExploreEventAnnotationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,7 +124,7 @@
 				9322D5D519703DFC00DC019F /* Main.storyboard */,
 				9322D5EE19703E4B00DC019F /* HomeViewController.swift */,
 				93A3AD441970552700647E16 /* HomeTableViewCell.swift */,
-				9BB110D119705C40009CB789 /* ExploreViewController.swift */,
+				9BB110D519706456009CB789 /* Explore */,
 				9322D5D819703DFC00DC019F /* Images.xcassets */,
 				9322D5CF19703DFC00DC019F /* Supporting Files */,
 				93802C6719705FF0003FD6C6 /* MMHSEventApp-Bridging-Header.h */,
@@ -172,6 +176,16 @@
 			);
 			name = ParseFrameworks;
 			path = ..;
+			sourceTree = "<group>";
+		};
+		9BB110D519706456009CB789 /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				9BB110D619706491009CB789 /* ExploreEventAnnotationView.swift */,
+				9BB110D119705C40009CB789 /* ExploreViewController.swift */,
+				9BB110D3197063D4009CB789 /* ExploreAnnotation.swift */,
+			);
+			name = Explore;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,7 +287,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BB110D4197063D4009CB789 /* ExploreAnnotation.swift in Sources */,
 				9BB110D219705C40009CB789 /* ExploreViewController.swift in Sources */,
+				9BB110D719706491009CB789 /* ExploreEventAnnotationView.swift in Sources */,
 				93A3AD451970552700647E16 /* HomeTableViewCell.swift in Sources */,
 				9322D5D219703DFC00DC019F /* AppDelegate.swift in Sources */,
 				9322D5EF19703E4B00DC019F /* HomeViewController.swift in Sources */,
